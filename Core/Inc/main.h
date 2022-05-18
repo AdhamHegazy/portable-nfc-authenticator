@@ -59,12 +59,22 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 /* USER CODE BEGIN Private defines */
 
-#define RFID_SS_Pin GPIO_PIN_7
-#define RFID_SS_GPIO_Port GPIOB
+//#define RFID_SS_Pin GPIO_PIN_7
+//#define RFID_SS_GPIO_Port GPIOB
+//#define RFID_SS_Pin GPIO_PIN_15
+//#define RFID_SS_GPIO_Port GPIOC
 
-#define RFID_Reset_Pin GPIO_PIN_6
-#define RFID_Reset_GPIO_Port GPIOB
+#define RFID_SS_Pin GPIO_PIN_12
+#define RFID_SS_GPIO_Port GPIOA
 
+//#define RFID_Reset_Pin GPIO_PIN_6
+//#define RFID_Reset_GPIO_Port GPIOB
+
+//#define RFID_Reset_Pin GPIO_PIN_14
+//#define RFID_Reset_GPIO_Port GPIOC
+
+#define RFID_Reset_Pin GPIO_PIN_0
+#define RFID_Reset_GPIO_Port GPIOA
 //#define RFID_IRQ_Pin GPIO_PIN_9
 //#define RFID_IRQ_GPIO_Port GPIOA
 
